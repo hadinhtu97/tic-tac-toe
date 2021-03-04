@@ -1,3 +1,36 @@
-.main {
+.contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem;
+    grid-template-rows: 3rem 3rem 3rem;
+}
+
+.square {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    outline: none;
+}
+
+.info {
     text-align: center;
+}
+
+.resetButton {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    outline: none;
+    color: #f88070;
+}
+
+.myChoose {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    outline: none;
+    color: #14bdac;
 }
