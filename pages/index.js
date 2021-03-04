@@ -89,7 +89,7 @@ const Home = () => {
                     alert('That was a fair game!')
                 }
             } else {
-                if (isValueNull) {
+                if (!isValueNull(i)) {
                     let boardCopy = [...board]
                     boardCopy[i] = myChoose
                     computerMove(boardCopy, computerChoose)
